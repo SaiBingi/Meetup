@@ -1,0 +1,61 @@
+.container {
+  padding: 20px;
+  font-family: 'Roboto';
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 88vh;
+  text-align: center;
+}
+
+.heading {
+  font-size: 43px;
+  font-weight: 500;
+  color: #334155;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.heading-2 {
+  color: #2563eb;
+  font-size: 60px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 21px;
+  color: #475569;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.description-2 {
+  font-size: 27px;
+  font-weight: 600;
+  color: #334155;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.meetup {
+  width: 700px;
+  height: 360px;
+}
+
+.register-button {
+  border: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  background-color: #3b82f6;
+  padding: 10px 20px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-bottom: 40px;
+}

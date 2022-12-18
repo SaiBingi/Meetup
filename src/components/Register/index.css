@@ -1,0 +1,65 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 88vh;
+}
+
+.website-register {
+  width: 380px;
+}
+
+.input-container {
+  width: 300px;
+  border: 1px solid #cbd5e1;
+  border-radius: 3px;
+  padding: 8px 7px;
+  outline: none;
+  margin-top: 6px;
+  margin-bottom: 25px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  color: #7b8794;
+  margin: 0;
+  width: 100%;
+}
+
+.heading {
+  font-size: 43px;
+  font-weight: 500;
+  color: #334155;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-size: 13px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #7b8794;
+  margin-top: 25px;
+}
+
+.register-now-button {
+  border: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  background-color: #3b82f6;
+  padding: 10px 22px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 7px;
+  margin-top: 5px;
+}
+
+.err-msg {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #ff0b37;
+  font-weight: 500;
+}
